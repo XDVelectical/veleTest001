@@ -2,7 +2,7 @@
 _csharp_loadAssembly("System.IO")
 _csharp_loadAssembly("System.IO.FileSystem")
 _csharp_loadAssembly("System.IO.FileSystem.Watcher")
-_csharp_loadAssembly("System.IO.
+_csharp_loadAssembly("System.IO.Directory.Watcher")
 
 -- Dependencies
 SearchOption = _csharp_getStaticType("System.IO.SearchOption");
@@ -24,7 +24,7 @@ Directory = _csharp_getType("io.LuaDirectory");
 DirectoryInfo = _csharp_getType("io.LuaDirectoryInfo");
 
 -- Directory.Watcher 
-NotifyFilters = _csharp_getType("Directory.IO.NotifyDirectory");
+NotifyFilters = _csharp_getStaticType("Directory.IO.NotifyDirectory");
 WatcherChangeTypes = _csharp_getStaticType("Directory.IO.WatcherChangeTypes");
 DirectorySystemWatcher = csharp_getType("io.LuaDirectoryWatcher");
 
