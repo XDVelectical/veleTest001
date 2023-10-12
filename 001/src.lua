@@ -14,6 +14,8 @@ FileOptions = _csharp_getStaticType("System.IO.FileOptions");
 
 -- Path
 Path = _csharp_getType("io.LuaPath");
+PathInfo = _csharp_getType("io.LuaPathInfo");
+PathSystemWatcher = _csharp_getType("io.LuaPathWatcher"); 
 
 -- File
 File = _csharp_getType("io.LuaFile");
@@ -26,7 +28,7 @@ DirectoryInfo = _csharp_getType("io.LuaDirectoryInfo");
 -- Directory.Watcher 
 NotifyFilters = _csharp_getStaticType("Directory.IO.NotifyDirectory");
 WatcherChangeTypes = _csharp_getStaticType("Directory.IO.WatcherChangeTypes");
-DirectorySystemWatcher = csharp_getType("io.LuaDirectoryWatcher");
+DirectorySystemWatcher = _csharp_getType("io.LuaDirectoryWatcher");
 
 -- Stream
 Stream = _csharp_getType("io.LuaStream");
