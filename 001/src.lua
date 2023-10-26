@@ -4,7 +4,7 @@ _csharp_loadAssembly("System.IO.FileSystem")
 _csharp_loadAssembly("System.IO.FileSystem.Watcher")
 _csharp_loadAssembly("System.IO.Directory.Watcher")
 
--- Dependencies
+-- Dependencies 
 SearchOption = _csharp_getStaticType("System.IO.SearchOption");
 FileMode = _csharp_getStaticType("System.IO.FileMode");
 FileAccess = _csharp_getStaticType("System.IO.FileAccess");
